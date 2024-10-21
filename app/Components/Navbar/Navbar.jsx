@@ -12,7 +12,7 @@ const Navbar  = () => {
         
         <div className='main-navbar-container flex justify-center items-center gap-20'>
    
-   <div ><Image src={logo}/></div>
+   <div ><Image src={logo} className="logo"/></div>
   <div className="relative inline-block input"><input type="text" placeholder="Search" className="inp" />
   <CiSearch className="icon" /> </div>
 

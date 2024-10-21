@@ -190,15 +190,20 @@ height: 50%;
    .main-navbar-container{
       display: flex;
       justify-content: center;
-      gap: 1rem;
+      gap: 0rem;
+      height: 10rem;
    }
    .nav-link{
       display: none;
    }
+   .logo{
+    width: 13rem;
+   }
+   
    .hidden{
       display: block;
-      font-size: 2rem;
-      margin-left: 15rem;
+      font-size: 4rem;
+      margin-left: 25rem;
 
    }
    html{

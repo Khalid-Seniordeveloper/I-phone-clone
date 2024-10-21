@@ -23,24 +23,6 @@ const page = () => (
 </div>
 
 
-{/* main section part 2 grid ka manjan  */}
-
-
-
-<div className="main-container flex">
-
-  <div className="sub-main-one">
-
-<div className="box one"></div>
-<div className="box"></div>
-<div className="box"></div> 
-<div className="box"></div> 
-
-  </div>
-<div className="sub-main-two"></div>
-</div >
-
-
   </div>
   </>
 )
