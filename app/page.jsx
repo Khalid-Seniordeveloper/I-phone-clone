@@ -44,13 +44,13 @@ const page = () => (
 <div className="station-detail mt-20 gap">
 
 <h1>Playstation 5</h1>
-<p>Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience</p>
+<p>Incredibly powerful CPUs, GPUs,  and an SSD with integrated I/O will redefine your PlayStation experience</p>
 
 </div>
 </div>
 
  
-<div className="sub-two-container flex">
+{/* <div className="sub-two-container flex">
 
 <div className="sub-two-one flex grey">
 
@@ -73,7 +73,7 @@ const page = () => (
 </div>
 </div>
 
-</div>
+</div> */}
 
 </div>
 <div className="sub-container-two-main flex ">

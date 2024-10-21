@@ -335,14 +335,17 @@ height: 50%;
     .free-detail{
       width: 100%;
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
+      height: 50rem;
+
     }
  
   .sub-one-main-two{
    width: 100%;
    display: flex;
    justify-content: start;
+   /* border: 1px solid black; */
    align-items: center;
    height: 50rem;
 }
@@ -356,13 +359,47 @@ height: 50%;
    text-align: center;
 }
 .sub-one-main-two .free-detail  button {
-   padding: 1rem 8rem ;
+   padding: 1rem 6rem ;
    border: 1px solid black;
    border-radius: 0.5rem;
    margin-top: 2rem;
    font-size: 2rem;
+   margin-right: 7rem;
+}
+.station-detail h1{
+   font-size: 4rem;
+}
+.station-detail p{
+   font-size: 2rem;
+   margin-left: 2rem;
+}
+.station-detail{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   flex-direction: column;
+   width: 80%;
 }
 
+.sub-one-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 8rem;
+   width: 100%;
+}
+.play-station{
+   width: 34rem;
+   margin-left: 8rem;
+   margin-top: 4rem;
+}
+.station-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
    .mac-2{
    display: block;
    width: 100rem;
@@ -421,5 +458,6 @@ height: 50%;
       border-radius: 0.8rem;
       margin-top: 2rem;
       font-size: 1.7rem;
+      /* margin-right: 2rem; */
    }
 }
