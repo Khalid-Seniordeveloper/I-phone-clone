@@ -6,8 +6,8 @@ import vision from './assets/vision.png'
 import macbook from './assets/macbook.png'
 
 import mactwo from './assets/mactwo.png'
-
-
+import handsfreetwo from './assets/handsfreetwo.png'
+import visiontwo from './assets/visiontwo.png'
 const page = () => (
   <>
   <div>
@@ -50,14 +50,19 @@ const page = () => (
 </div>
 
  
-{/* <div className="sub-two-container flex">
+<div className="sub-two-container flex">
 
 <div className="sub-two-one flex grey">
 
 <div className="station-container"><Image src={handfree} className="handfree"/></div>
+<div className="station-container"><Image src={handsfreetwo} className="handfree-2"/></div>
 <div className="free-detail flex justify-center flex-col items-start">
 
-<h1>Apple <br /> Airpods  <span>Max</span></h1>
+<h1 className="yes">Apple Airpods <span>Max</span></h1>
+
+
+
+<h1 className="no">Apple Airpods <span>Max</span></h1>
 <p>Computational audio. Listen, it's powerful</p>
 
 </div>
@@ -65,15 +70,17 @@ const page = () => (
 <div className="sub-two-one flex vision-color">
 
 <div className="vision-container flex justify-centera items-center "><Image src={vision} className="vision"/></div>
+<div className="station-container"><Image src={visiontwo} className="vision-2"/></div>
+
 <div className="free-detail flex justify-center flex-col items-start">
 
-<h1 className="text-white">Apple <br /> Vision  <span>Pro</span></h1>
+<h1 className="text-white yes">Apple <br /> Vision  <span>Pro</span></h1>
 <p>An immersive way to experience entertainment</p>
 
 </div>
 </div>
 
-</div> */}
+</div>
 
 </div>
 <div className="sub-container-two-main flex ">
@@ -85,7 +92,7 @@ const page = () => (
 
 <h1>Macbook <span>Air</span></h1>
 <p>The new 15‑inch MacBook Air makes  room for more of what you love with a  spacious Liquid Retina display.</p>
-<button>Shop Now</button>
+<div className="shop-btn"><button>Shop Now</button></div>
 </div>
 
 </div>
