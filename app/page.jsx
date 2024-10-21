@@ -2,6 +2,12 @@ import Image from "next/image"
 import iphone from './assets/iphone.png'
 import PS  from './assets/PS.png'
 import handfree from './assets/handfree.png'
+import vision from './assets/vision.png'
+import macbook from './assets/macbook.png'
+
+import mactwo from './assets/mactwo.png'
+
+
 const page = () => (
   <>
   <div>
@@ -28,14 +34,14 @@ const page = () => (
 {/* second main section  */}
 
 
-<div>
+<div className="flex  most-main flex-wrap">
 
-<div className="sub-container">
+<div className="sub-container ">
 
 <div className="sub-one-container flex justify-start ">
 
 <div className="station-container flex justify-end items-end"><Image src={PS} className="play-station"/></div>
-<div className="station-detail mt-20">
+<div className="station-detail mt-20 gap">
 
 <h1>Playstation 5</h1>
 <p>Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience</p>
@@ -46,19 +52,52 @@ const page = () => (
  
 <div className="sub-two-container flex">
 
-<div className="sub-two-one">
+<div className="sub-two-one flex grey">
 
-<div><Image src={handfree} className="handfree"/></div>
+<div className="station-container"><Image src={handfree} className="handfree"/></div>
+<div className="free-detail flex justify-center flex-col items-start">
+
+<h1>Apple <br /> Airpods  <span>Max</span></h1>
+<p>Computational audio. Listen, it's powerful</p>
 
 </div>
-<div className="sub-two-one"></div>
+</div>
+<div className="sub-two-one flex vision-color">
 
+<div className="vision-container flex justify-centera items-center "><Image src={vision} className="vision"/></div>
+<div className="free-detail flex justify-center flex-col items-start">
+
+<h1 className="text-white">Apple <br /> Vision  <span>Pro</span></h1>
+<p>An immersive way to experience entertainment</p>
+
+</div>
 </div>
 
 </div>
-<div></div>
+
+</div>
+<div className="sub-container-two-main flex ">
 
 
+<div className="sub-one-main-two flex justify-center items-center ">
+
+<div className="free-detail flex justify-center flex-col items-start p-40">
+
+<h1>Macbook <span>Air</span></h1>
+<p>The new 15‑inch MacBook Air makes  room for more of what you love with a  spacious Liquid Retina display.</p>
+<button>Shop Now</button>
+</div>
+
+</div>
+<div className="sub-two-main-two flex justify-center items-center">
+  <div className="flex  items-center">
+    <Image src={macbook} className="mac" />
+    
+    <Image src={mactwo} className="mac-2" />
+  </div>
+</div>
+
+</div>
 
 
 </div>

@@ -8,6 +8,9 @@
  html{
     font-size: 62.5%;
  }
+ body{
+   background-color: white;
+ }
  .icon{
    position: absolute;
    left : 2rem;
@@ -102,6 +105,43 @@ font-size: 1.5rem;
    height: 45rem;
    /* border: 1px solid black; */
 }
+.sub-container-two-main{
+   /* border: 1px solid black; */
+   background-color: #EDEDED;
+   width: 50%;
+   height: 45rem;
+}
+.sub-one-main-two{
+   width: 60%;
+   /* border: 1px solid black; */
+
+
+}
+.mac{
+   width: 20rem;
+
+}
+.mac-2{
+   display: none;
+   width: 20rem;
+}
+.sub-two-main-two{
+   width: 40%;
+   /* border: 1px solid black; */
+
+}
+.sub-one-main-two .free-detail h1{
+   font-size: 5rem;
+}
+.sub-one-main-two .free-detail h1 span{
+   font-size: 7rem;
+}
+.sub-one-main-two .free-detail  button {
+   padding: 1rem 4rem ;
+   border: 1px solid black;
+   border-radius: 0.5rem;
+   margin-top: 2rem;
+}
 .sub-one-container{
    width: 100%;
    height: 23rem;
@@ -114,7 +154,7 @@ font-size: 1.5rem;
 }
 .sub-two-one{
    width: 50%;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    height: 22rem;
 }
 .station-container{
@@ -137,6 +177,44 @@ font-size: 4rem; ;
 .handfree{
    width: 8rem;
 }
+.free-detail h1{
+   font-size: 2.7rem; 
+   width: 50%;
+
+}
+.free-detail h1 span{
+   font-size: 4rem; 
+}
+.free-detail p{
+   color: #909090;
+   font-size: 1.3rem;
+}
+.vision {
+   height: 10rem;
+   
+}
+
+.vision-container{
+   width: 70%;
+   /* border: 1px solid black; */
+}
+.grey{
+   background-color: #EDEDED;
+}
+.vision-color {
+   background-color: #353535;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsiveness  */
 
@@ -173,6 +251,13 @@ justify-content: center;
       justify-content: center;
       gap: 2rem;
    }
+   .most-main{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 5rem;
+       margin-top: 5rem;
+   }
    html{
       font-size: 50%;
    }
@@ -180,6 +265,12 @@ justify-content: center;
       margin-left: 5rem;
       gap: 3rem;
    }
+  .sub-container{
+   width: 70%;
+  }
+  .sub-container-two-main{
+   width: 70%;
+  }
 }
 @media (max-width : 480px){
    .main-navbar-container{
@@ -187,6 +278,12 @@ justify-content: center;
       justify-content: center;
       gap: 1.5rem;
    }
+   .sub-container{
+      width: 90%;
+     }
+     .sub-container-two-main{
+      width: 90%;
+     }
    .nav-link{
       margin-left: 3rem;
       gap: 1.5rem;
@@ -226,6 +323,62 @@ height: 50%;
 }
 
 @media (max-width : 370px){
+    .sub-two-main-two{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sub-one-main-two .free-detail p{
+      font-size: 2.3rem;
+    }
+    .free-detail{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+ 
+  .sub-one-main-two{
+   width: 100%;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   height: 50rem;
+}
+.sub-one-main-two .free-detail h1{
+   font-size: 6.5rem;
+   text-align: start;
+   margin-right: 14rem;
+}
+.sub-one-main-two .free-detail h1 span{
+   font-size: 8rem;
+   text-align: center;
+}
+.sub-one-main-two .free-detail  button {
+   padding: 1rem 4rem ;
+   border: 1px solid black;
+   border-radius: 0.5rem;
+   margin-top: 2rem;
+   font-size: 2rem;
+}
+
+   .mac-2{
+   display: block;
+   width: 100rem;
+   }
+   .mac{
+      display: none;
+   }
+ 
+   .sub-container-two-main{
+      display: flex;
+      flex-direction: column;
+      height: 80rem;
+      justify-content: center;
+      align-items: center;
+   }
+
    .main-navbar-container{
       display: flex;
       justify-content: center;
