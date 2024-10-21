@@ -330,7 +330,7 @@ height: 50%;
       align-items: center;
     }
     .sub-one-main-two .free-detail p{
-      font-size: 2.3rem;
+      font-size: 2rem;
     }
     .free-detail{
       width: 100%;
@@ -347,16 +347,16 @@ height: 50%;
    height: 50rem;
 }
 .sub-one-main-two .free-detail h1{
-   font-size: 6.5rem;
+   font-size: 5rem;
    text-align: start;
    margin-right: 14rem;
 }
 .sub-one-main-two .free-detail h1 span{
-   font-size: 8rem;
+   font-size: 7rem;
    text-align: center;
 }
 .sub-one-main-two .free-detail  button {
-   padding: 1rem 4rem ;
+   padding: 1rem 8rem ;
    border: 1px solid black;
    border-radius: 0.5rem;
    margin-top: 2rem;
@@ -373,10 +373,12 @@ height: 50%;
  
    .sub-container-two-main{
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       height: 80rem;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      gap: 0;
    }
 
    .main-navbar-container{
