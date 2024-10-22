@@ -4,10 +4,18 @@ import PS  from './assets/PS.png'
 import handfree from './assets/handfree.png'
 import vision from './assets/vision.png'
 import macbook from './assets/macbook.png'
-
+import { IoIosArrowForward } from "react-icons/io";
 import mactwo from './assets/mactwo.png'
 import handsfreetwo from './assets/handsfreetwo.png'
 import visiontwo from './assets/visiontwo.png'
+import { IoIosArrowBack } from "react-icons/io";
+import Computers from './assets/Computers.png'
+import Headphones from './assets/Headphones.png'
+import Phones from './assets/Phones.png'
+import Gaming from './assets/Gaming.png'
+import watch from './assets/watch.png'
+import Cameras from './assets/Cameras.png'
+
 const page = () => (
   <>
   <div>
@@ -70,11 +78,11 @@ const page = () => (
 <div className="sub-two-one flex vision-color">
 
 <div className="vision-container flex justify-centera items-center "><Image src={vision} className="vision"/></div>
-<div className="station-container"><Image src={visiontwo} className="vision-2"/></div>
+<div className="station-container vision-pack"><Image src={visiontwo} className="vision-2"/></div>
 
 <div className="free-detail flex justify-center flex-col items-start">
 
-<h1 className="text-white yes">Apple <br /> Vision  <span>Pro</span></h1>
+<h1 className="text-white yes">Apple Vision  <span>Pro</span></h1>
 <p>An immersive way to experience entertainment</p>
 
 </div>
@@ -108,6 +116,43 @@ const page = () => (
 
 
 </div>
+
+
+{/* second section start  */}
+
+
+<div className="flex items-center flex-col justify-between head-third-main">
+
+<div className="flex justify-between items-center w-[100%] browse-container p-0">
+
+<h1 className="text-3xl browse">Browse By Category</h1>
+<div className="flex gap-10 justify-center items-center"><IoIosArrowBack className="text-3xl browse-icon" />   <IoIosArrowForward className="text-3xl browse-icon"  /> </div>
+
+
+</div>
+
+<div className="product-third-container flex  justify-between flex-wrap  ">
+
+<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Phones}/>  <h1 className="text-2xl ">Phones</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Headphones}/>  <h1 className="text-2xl ">HeadPhones</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Gaming}/>  <h1 className="text-2xl ">Gaming</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={watch}/>  <h1 className="text-2xl ">Watch</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Computers}/>  <h1 className="text-2xl ">Computers</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Cameras}/>  <h1 className="text-2xl ">Gaming</h1></div>
+
+{/* <Image src={card2}/>
+<Image src={card3}/>
+<Image src={card4}/>
+<Image src={card5}/>
+<Image src={card6}/> */}
+
+
+
+
+</div>
+
+</div>
+
 
 
   </div>
