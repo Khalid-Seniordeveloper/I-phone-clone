@@ -275,16 +275,21 @@ font-size: 4rem; ;
 /* responsiveness  */
 
 
-.second-main-card-container{
-   width: 100%;
-   height: 47rem;
-   /* border: 1px solid black; */
+.second-main-card-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center; /* Center the items horizontally */
+   align-items: center; /* Center the items vertically */
+   height: 100vh; /* Ensure it takes full viewport height */
 }
-.sub-second-main{
-   width: 25%;
-   height: 47rem;
-   /* border: 1px solid black; */
+
+/* Card styles */
+.sub-second-main {
+   width: 25%; /* Default width for larger screens */
+   height: 47rem; /* Keep the height as is */
+   min-width: 300px; /* Minimum width to maintain card size */
 }
+
 .nested-for-detail{
    width: 100%;
    height: 22rem;
@@ -292,6 +297,27 @@ font-size: 4rem; ;
    background-color: black; */
    padding: 1.2rem 2rem;
 
+}
+.for-border{
+   width: 100%;
+   height: 22rem;
+   /* border: 1px solid black;
+   background-color: black; */
+   padding: 1.2rem 2rem;
+}
+.for-border h1{
+   font-size : 2.5rem;
+}
+.for-border p{
+   color: #909090;
+   font-size: 1.2rem;
+}
+.for-border button{
+    /* border: 1px solid ; */
+    padding: 1rem 4rem ;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    /* margin-top: 2rem; */
 }
 .nested-for-detail h1{
    font-size : 2.5rem;
@@ -307,6 +333,34 @@ font-size: 4rem; ;
    border: 1px solid black;
    border-radius: 0.5rem;
    /* margin-top: 2rem; */
+}
+.bgone{
+   background-color: #F9F9F9 ;
+}
+.bgthree{
+   background-color: #EAEAEA  ;
+}
+.bgfour{
+   background-color: #2C2C2C;
+}
+.mac-btn{
+   color: white;
+   border: 1px solid white;
+}
+.second-main-card-container{
+   display: flex;
+      flex-wrap: wrap;
+}
+.bacground-image-container{
+   width: 100%;
+   height: 100%;
+   border: 1px solid black;
+   margin-top: 5rem;
+   overflow: hidden;
+}
+.banner{
+   width: 100%;
+   height: 100%;
 }
 
 @media (max-width : 1004px ){
@@ -334,6 +388,9 @@ justify-content: center;
          .icon-con{
             display: none;
          }
+         .sub-second-main {
+            width: 45%; /* Adjust width for medium screens */
+        }
 }
 
 @media(max-width : 730px){
@@ -363,8 +420,21 @@ justify-content: center;
   .sub-container-two-main{
    width: 70%;
   }
+  .main-one-card-container{
+   row-gap: 4rem;
+   /* margin-top: 10rem; */
+}
+.second-head{
+   margin-top: 20rem;
+}
+.neechy{
+   margin-top: 25rem;
+}
 }
 @media (max-width : 480px){
+   .neechy{
+      margin-top: 125rem;
+   }
    .main-navbar-container{
       display: flex;
       justify-content: center;
@@ -383,6 +453,9 @@ justify-content: center;
       margin-left: 3rem;
       gap: 1.5rem;
    }
+   .sub-second-main {
+      width: 45%; /* Adjust width for medium screens */
+  }
 
    .first-container{
       display: flex;
@@ -404,6 +477,10 @@ justify-content: center;
       justify-content: center;
 height: 50%;
    }
+   .sub-second-main {
+      width: 100%; /* Full width for small screens */
+      margin-bottom: 2rem; /* Add spacing between cards */
+  }
    .second-sub-container{
       height: 50%;
       width: 100%;
@@ -438,7 +515,26 @@ height: 50%;
    align-items: center;
 
  }
-   
+ .second-main-card-container{
+   margin-top: 160rem;
+ }
+ .sub-second-main {
+   width: 100%; /* Full width for small screens */
+   margin-bottom: 2rem; /* Add spacing between cards */
+}
+.nested-for-detail h1, .for-border h1 {
+   font-size: 3.2rem; /* Adjust heading size for smaller screens */
+}
+
+.nested-for-detail p, .for-border p {
+   font-size: 1.5rem; /* Adjust paragraph size for smaller screens */
+}
+
+.nested-for-detail button, .for-border button {
+   padding: 0.8rem 2rem;
+   font-size: 1.5rem; /* Adjust button padding */
+}
+  
 }
 @media(max-width: 344px){
    .second-head{
@@ -452,9 +548,22 @@ height: 50%;
    .main-one-card-container{
       display: flex;
       justify-content: center;
+     
+      
 
    }
+   .neechy{
+      position: relative;
+      top: 250rem;
+   }
+   .bacground-image-container{
+      margin-top: 255rem;
+   }
+   .second-main-card-container{
+      margin-top: 160rem;
+   }
 .main-one-card-container{
+ 
    row-gap: 4rem;
    margin-top: 4rem;
 }  
@@ -486,6 +595,27 @@ height: 50%;
       border-radius: 0.7rem;
       font-size: 1.6rem;
    }
+   .second-main-card-container{
+      /* margin-bottom: -160rem; */
+      position: relative;
+      top: 250rem;
+    }
+   .sub-second-main {
+      width: 200px; /* Keep card width at 300px */
+  }
+ 
+
+  .nested-for-detail h1, .for-border h1 {
+      font-size: 2rem; /* Adjust heading size for smaller screens */
+  }
+
+  .nested-for-detail p, .for-border p {
+      font-size: 1rem; /* Adjust paragraph size for smaller screens */
+  }
+
+  .nested-for-detail button, .for-border button {
+      padding: 0.8rem 2rem; /* Adjust button padding */
+  }
 }
 
 @media (max-width : 370px){
@@ -512,6 +642,9 @@ height: 50%;
    width: 100%;
    gap: 3rem;
    margin-top: 20rem;
+ }
+ .neechy{
+   margin-top: 110rem;
  }
   .sub-one-main-two{
    width: 100%;
@@ -711,4 +844,20 @@ height: 50%;
       font-size: 1.7rem;
       /* margin-right: 2rem; */
    }
+   .sub-second-main {
+      width: 50%; /* Keep card width at 300px */
+  }
+
+  .nested-for-detail h1, .for-border h1 {
+      font-size: 3.5rem; /* Adjust heading size for smaller screens */
+  }
+
+  .nested-for-detail p, .for-border p {
+      font-size: 1.7rem; /* Adjust paragraph size for smaller screens */
+  }
+
+  .nested-for-detail button, .for-border button {
+      padding: 0.8rem 2rem;
+      font-size: 1.5rem; /* Adjust button padding */
+  }
 }

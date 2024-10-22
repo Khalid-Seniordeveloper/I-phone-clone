@@ -24,6 +24,10 @@ import galaxyphone from './assets/galaxyphone.png'
 import cardairdots from './assets/cardairdots.png'
 import cardhandsfree from './assets/cardhandsfree.png'
 import subone from './assets/subone.png'
+import subtwo from './assets/subtwo.png'
+import subthree from './assets/subthree.png'
+import subfour from './assets/subfour.png'
+import banner from './assets/banner.png'
 
 import { CiHeart } from "react-icons/ci";
 const page = () => (
@@ -329,7 +333,7 @@ const page = () => (
 </div>
 </div>
 
-<div className="second-main-card-container flex ">
+<div className="second-main-card-container mt-16   ">
  <div className="sub-second-main">
 
 <div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subone} className="w-[25rem] mt-20 overflow-hidden"/></div>
@@ -341,22 +345,9 @@ const page = () => (
 <button>Shop Now</button>
 </div>
  </div>
- <div className="sub-second-main">
+ <div className="sub-second-main bgone">
 
-<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subone} className="w-[25rem] mt-20 overflow-hidden"/></div>
-
-<div className="nested-for-detail flex flex-col items-start justify-start gap-8">
-
-<h1 className="text-3xl">Popular Products</h1>
-<p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
-<button>Shop Now</button>
-</div>
- </div>
-
-
- <div className="sub-second-main">
-
-<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subone} className="w-[25rem] mt-20 overflow-hidden"/></div>
+<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subtwo} className="w-[25rem] mt-20 overflow-hidden"/></div>
 
 <div className="nested-for-detail flex flex-col items-start justify-start gap-8">
 
@@ -367,9 +358,9 @@ const page = () => (
  </div>
 
 
- <div className="sub-second-main">
+ <div className="sub-second-main bgthree">
 
-<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subone} className="w-[25rem] mt-20 overflow-hidden"/></div>
+<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center  "><Image src={subthree} className="w-[25rem] mt-20 overflow-hidden"/></div>
 
 <div className="nested-for-detail flex flex-col items-start justify-start gap-8">
 
@@ -378,6 +369,104 @@ const page = () => (
 <button>Shop Now</button>
 </div>
  </div>
+
+
+ <div className="sub-second-main bgfour">
+
+<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subfour} className="w-[25rem] mt-20 overflow-hidden"/></div>
+
+<div className="for-border flex flex-col items-start justify-start gap-8">
+
+<h1 className="text-3xl text-white">Popular Products</h1>
+<p className="text-white">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+<div><button className="mac-btn">Shop Now</button></div>
+</div>
+ </div>
+</div>
+
+<div className="main-one-card-container w-[100%] mt-16 gap-24 neechy flex flex-wrap justify-center items-center">
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardphone} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardcamera} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardwatch} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardhandsfree} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+</div>
+
+<div className="bacground-image-container">
+  <Image src={banner} className="banner"/>
 </div>
 
   </div>
