@@ -23,7 +23,7 @@ import ipad from './assets/ipad.png'
 import galaxyphone from './assets/galaxyphone.png'
 import cardairdots from './assets/cardairdots.png'
 import cardhandsfree from './assets/cardhandsfree.png'
-
+import subone from './assets/subone.png'
 
 import { CiHeart } from "react-icons/ci";
 const page = () => (
@@ -150,19 +150,11 @@ const page = () => (
 <div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Computers}/>  <h1 className="text-2xl ">Computers</h1></div>
 <div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Cameras}/>  <h1 className="text-2xl ">Gaming</h1></div>
 
-{/* <Image src={card2}/>
-<Image src={card3}/>
-<Image src={card4}/>
-<Image src={card5}/>
-<Image src={card6}/> */}
-
-
-
 
 </div>
 
 
-<div className="second-head gap-10 flex justify-start items-center w-[100%] bg-white mt-16">
+<div className="second-head gap-10 flex justify-start items-center w-[100%] mt-14 bg-white  border-black">
 
 
 <button className="for-underline"><h1 className='text-3xl'>New Arrival</h1></button>
@@ -175,7 +167,7 @@ const page = () => (
 
 
 
-<div className="main-one-card-container w-[100%]  flex flex-wrap justify-between mt-10">
+<div className="main-one-card-container w-[100%] mt-16 flex flex-wrap justify-between">
 
 <div className="card-container">
 
@@ -335,18 +327,58 @@ const page = () => (
 
 
 </div>
-
-{/* second card row  */}
-
-
-
-
-
-
-
-
 </div>
 
+<div className="second-main-card-container flex ">
+ <div className="sub-second-main">
+
+<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subone} className="w-[25rem] mt-20 overflow-hidden"/></div>
+
+<div className="nested-for-detail flex flex-col items-start justify-start gap-8">
+
+<h1 className="text-3xl">Popular Products</h1>
+<p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+<button>Shop Now</button>
+</div>
+ </div>
+ <div className="sub-second-main">
+
+<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subone} className="w-[25rem] mt-20 overflow-hidden"/></div>
+
+<div className="nested-for-detail flex flex-col items-start justify-start gap-8">
+
+<h1 className="text-3xl">Popular Products</h1>
+<p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+<button>Shop Now</button>
+</div>
+ </div>
+
+
+ <div className="sub-second-main">
+
+<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subone} className="w-[25rem] mt-20 overflow-hidden"/></div>
+
+<div className="nested-for-detail flex flex-col items-start justify-start gap-8">
+
+<h1 className="text-3xl">Popular Products</h1>
+<p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+<button>Shop Now</button>
+</div>
+ </div>
+
+
+ <div className="sub-second-main">
+
+<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subone} className="w-[25rem] mt-20 overflow-hidden"/></div>
+
+<div className="nested-for-detail flex flex-col items-start justify-start gap-8">
+
+<h1 className="text-3xl">Popular Products</h1>
+<p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+<button>Shop Now</button>
+</div>
+ </div>
+</div>
 
   </div>
  
