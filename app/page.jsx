@@ -15,7 +15,17 @@ import Phones from './assets/Phones.png'
 import Gaming from './assets/Gaming.png'
 import watch from './assets/watch.png'
 import Cameras from './assets/Cameras.png'
+import cardphone from './assets/cardphone.png'
+import cardcamera from './assets/cardcamera.png'
+import cardwatch from './assets/cardwatch.png'
+import galaxyimage from './assets/galaxyimage.png'
+import ipad from './assets/ipad.png'
+import galaxyphone from './assets/galaxyphone.png'
+import cardairdots from './assets/cardairdots.png'
+import cardhandsfree from './assets/cardhandsfree.png'
 
+
+import { CiHeart } from "react-icons/ci";
 const page = () => (
   <>
   <div>
@@ -123,7 +133,7 @@ const page = () => (
 
 <div className="flex items-center flex-col justify-between head-third-main">
 
-<div className="flex justify-between items-center w-[100%] browse-container p-0">
+<div className="flex justify-between items-center w-[100%] browse-container p-0 mt-5">
 
 <h1 className="text-3xl browse">Browse By Category</h1>
 <div className="flex gap-10 justify-center items-center"><IoIosArrowBack className="text-3xl browse-icon" />   <IoIosArrowForward className="text-3xl browse-icon"  /> </div>
@@ -151,11 +161,196 @@ const page = () => (
 
 </div>
 
+
+<div className="second-head gap-10 flex justify-start items-center w-[100%] bg-white mt-16">
+
+
+<button className="for-underline"><h1 className='text-3xl'>New Arrival</h1></button>
+<h1 className='text-2xl'>Bestseller</h1>
+<h1  className='text-2xl'>Featured Products</h1>
 </div>
 
 
 
+
+
+
+<div className="main-one-card-container w-[100%]  flex flex-wrap justify-between mt-10">
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardphone} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardcamera} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardwatch} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardhandsfree} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+</div>
+<div className="main-one-card-container w-[100%]  flex flex-wrap justify-between mt-10">
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardairdots} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={galaxyimage} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={galaxyphone} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={ipad} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$900</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+</div>
+
+{/* second card row  */}
+
+
+
+
+
+
+
+
+</div>
+
+
   </div>
+ 
+
   </>
 )
 

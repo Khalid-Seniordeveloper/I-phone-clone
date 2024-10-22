@@ -217,7 +217,9 @@ font-size: 4rem; ;
 
 .head-third-main{
    padding: 0 13rem;
+   /* border: 1px solid black; */
    margin-top: 6rem;
+   background-color: #FAFAFA;
 }
 .product-third-container{
    margin-top: 3rem;
@@ -240,7 +242,30 @@ font-size: 4rem; ;
 }
 
 
+/* card styling  */
+.heart{
+   font-size: 2.5rem;
+}
 
+.card-container{
+   width: 22rem;
+   height: 35rem;
+   /* border: 1px solid black; */
+   border-radius: 0.5rem;
+   background-color: #F6F6F6;
+}
+.for-underline{
+   padding: 0.5rem 0;
+   border-bottom: 3px solid black;
+}
+
+.buy-btn button{
+   background-color: black;
+   color: white;
+   padding: 1rem 3.5rem;
+   border-radius: 0.7rem;
+
+}
 /* responsiveness  */
 
 
@@ -269,6 +294,12 @@ justify-content: center;
          .icon-con{
             display: none;
          }
+}
+.second-head{
+   margin-top: 24rem;
+}
+.main-one-card-container{
+   row-gap: 5rem;
 }
 @media(max-width : 730px){
  
@@ -307,6 +338,9 @@ justify-content: center;
    .sub-container{
       width: 90%;
      }
+     .second-head{
+      margin-top: -3rem;
+   }
      .sub-container-two-main{
       width: 90%;
      }
@@ -370,6 +404,50 @@ height: 50%;
 
  }
    
+}
+@media(max-width: 344px){
+   .second-head{
+      margin-top: 15rem;
+      gap: 2rem;
+      /* padding: 0; */
+   }
+   .second-head button h1{
+      font-size: 2.5rem;
+   }
+   .main-one-card-container{
+      display: flex;
+      justify-content: center;
+
+   }
+  
+   .second-head h1{
+      font-size: 1.8rem;
+   }
+   .card-container{
+      width: 30rem;
+      height: 44rem;
+   }
+   .heart{
+      font-size: 4rem;
+   }
+   .product{
+      width: 20rem;
+   }
+   .product-name{
+      font-size: 2rem;
+
+   }
+   .price{
+      font-size: 3rem;
+      margin-top: 3rem;
+   }
+   .buy-btn button{
+      background-color: black;
+      color: white;
+      padding: 1rem 4rem;
+      border-radius: 0.7rem;
+      font-size: 1.6rem;
+   }
 }
 
 @media (max-width : 370px){
