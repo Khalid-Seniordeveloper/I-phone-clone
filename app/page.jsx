@@ -29,6 +29,10 @@ import subthree from './assets/subthree.png'
 import subfour from './assets/subfour.png'
 import banner from './assets/banner.png'
 import flogo from "./assets/flogo.png"
+import iphone15 from "./assets/iphone15.png"
+import iphone10 from "./assets/iphone10.png"
+
+
 import { CiHeart } from "react-icons/ci";
 const page = () => (
   <>
@@ -171,7 +175,7 @@ const page = () => (
 
 
 
-<div className="main-one-card-container w-[100%] mt-16 flex flex-wrap justify-between">
+<div className="main-one-card-container be-set w-[100%] mt-16 flex flex-wrap justify-between">
 
 <div className="card-container">
 
@@ -198,87 +202,7 @@ const page = () => (
 <div className="flex justify-center items-center mt-12"><Image src={cardcamera} className="w-56 product"/></div>
 <div className="w-[100%] flex justify-center items-center mt-5">
 
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardwatch} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardhandsfree} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-</div>
-<div className="main-one-card-container w-[100%]  flex flex-wrap justify-between mt-10">
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardairdots} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={galaxyimage} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">Blackmagic Pocket Cinema <br /> Camera 6k </h1>
+<h1 className="text-2xl text-center product-name">Blackmagic Pocket Cinema <br />Camera 6k </h1>
 
 </div>
 <div className="w-[100%] flex justify-center items-center">
@@ -295,14 +219,97 @@ const page = () => (
 <div className="card-container">
 
 <div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={galaxyphone} className="w-56 product"/></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardwatch} className="w-56 product"/></div>
 <div className="w-[100%] flex justify-center items-center mt-5">
 
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+<h1 className="text-2xl text-center product-name">Apple Watch Series 9 GPS <br /> 41mm Starlight Aluminium  </h1>
+
 
 </div>
 <div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
+<span className="text-3xl mt-6 price"><b>$399</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardhandsfree} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">AirPods Max Silver <br />
+Starlight Aluminium </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$549</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+</div>
+<div className="main-one-card-container w-[100%] be-set flex flex-wrap justify-between mt-10">
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={cardairdots} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Galaxy Buds FE <br />
+Graphite </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$99.99</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={galaxyimage} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+
+<h1 className="text-2xl text-center product-name">Samsung Galaxy Watch6 <br /> Classic 47mm Black </h1>
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$369</b></span>
+</div>
+<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
+  <button>Buy Now</button>
+</div>
+</div>
+
+
+
+
+<div className="card-container">
+
+<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
+<div className="flex justify-center items-center mt-12"><Image src={galaxyphone} className="w-56 product"/></div>
+<div className="w-[100%] flex justify-center items-center mt-5">
+<h1 className="text-2xl text-center product-name">Galaxy Z Fold5 Unlocked | <br /> 256GB | Phantom Black</h1>
+
+
+</div>
+<div className="w-[100%] flex justify-center items-center">
+<span className="text-3xl mt-6 price"><b>$1799</b></span>
 </div>
 <div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
   <button>Buy Now</button>
@@ -318,11 +325,11 @@ const page = () => (
 <div className="flex justify-center items-center mt-12"><Image src={ipad} className="w-56 product"/></div>
 <div className="w-[100%] flex justify-center items-center mt-5">
 
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+<h1 className="text-2xl text-center product-name">Apple iPad 9 10.2" 64GB Wi-Fi  <br />Silver (MK2L3) 2021</h1>
 
 </div>
 <div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
+<span className="text-3xl mt-6 price"><b>$398</b></span>
 </div>
 <div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
   <button>Buy Now</button>
@@ -351,7 +358,7 @@ const page = () => (
 
 <div className="nested-for-detail flex flex-col items-start justify-start gap-8">
 
-<h1 className="text-3xl">Popular Products</h1>
+<h1 className="text-3xl">Ipad Pro</h1>
 <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
 <button>Shop Now</button>
 </div>
@@ -364,7 +371,7 @@ const page = () => (
 
 <div className="nested-for-detail flex flex-col items-start justify-start gap-8">
 
-<h1 className="text-3xl">Popular Products</h1>
+<h1 className="text-3xl">Samsung Galaxy </h1>
 <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
 <button>Shop Now</button>
 </div>
@@ -377,7 +384,7 @@ const page = () => (
 
 <div className="for-border flex flex-col items-start justify-start gap-8">
 
-<h1 className="text-3xl text-white">Popular Products</h1>
+<h1 className="text-3xl text-white">Macbook Pro</h1>
 <p className="text-white">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
 <div><button className="mac-btn">Shop Now</button></div>
 </div>
@@ -389,14 +396,14 @@ const page = () => (
 <div className="card-container">
 
 <div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardphone} className="w-56 product"/></div>
+<div className="flex justify-center items-center mt-12"><Image src={iphone15} className="w-56 product"/></div>
 <div className="w-[100%] flex justify-center items-center mt-5">
 
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+<h1 className="text-2xl text-center product-name">Apple iPhone 14 Pro 512GB <br /> Gold (MQ233) </h1>
 
 </div>
 <div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
+<span className="text-3xl mt-6 price"><b>$1437</b></span>
 </div>
 <div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
   <button>Buy Now</button>
@@ -408,14 +415,14 @@ const page = () => (
 <div className="card-container">
 
 <div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardcamera} className="w-56 product"/></div>
+<div className="flex justify-center items-center mt-12"><Image src={iphone10} className="w-56 product"/></div>
 <div className="w-[100%] flex justify-center items-center mt-5">
 
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+<h1 className="text-2xl text-center product-name">Apple iPhone 14 Pro 1TB Gold <br /> (MQ2V3) </h1>
 
 </div>
 <div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
+<span className="text-3xl mt-6 price"><b>$1499</b></span>
 </div>
 <div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
   <button>Buy Now</button>
@@ -431,11 +438,11 @@ const page = () => (
 <div className="flex justify-center items-center mt-12"><Image src={cardwatch} className="w-56 product"/></div>
 <div className="w-[100%] flex justify-center items-center mt-5">
 
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+<h1 className="text-2xl text-center product-name">Apple Watch Series 9 GPS <br /> 41mm Starlight Aluminium </h1>
 
 </div>
 <div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
+<span className="text-3xl mt-6 price"><b>$399</b></span>
 </div>
 <div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
   <button>Buy Now</button>
@@ -451,11 +458,12 @@ const page = () => (
 <div className="flex justify-center items-center mt-12"><Image src={cardhandsfree} className="w-56 product"/></div>
 <div className="w-[100%] flex justify-center items-center mt-5">
 
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+<h1 className="text-2xl text-center product-name">AirPods Max Silver <br />
+Starlight Aluminium  </h1>
 
 </div>
 <div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
+<span className="text-3xl mt-6 price"><b>$549</b></span>
 </div>
 <div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
   <button>Buy Now</button>
