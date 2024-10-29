@@ -27,7 +27,7 @@ import subone from './assets/subone.png'
 import subtwo from './assets/subtwo.png'
 import subthree from './assets/subthree.png'
 import subfour from './assets/subfour.png'
-import banner from './assets/banner.png'
+import bannertwo from './assets/bannertwo.png'
 import iphone15 from "./assets/iphone15.png"
 import iphone10 from "./assets/iphone10.png"
 import Card from "./Components/Cards/Card"
@@ -221,7 +221,7 @@ const page = () => (
 
 <div className="main-one-card-container w-[100%] mt-16 gap-24 neechy flex flex-wrap justify-center items-center">
 
-<Card pic={iphone15} title="Apple iPhone 14 Pro 512GB Gold (MQ233) " price="$1437"/>
+<Card pic={iphone15}  title="Apple iPhone 14 Pro 512GB Gold (MQ233) " price="$1437"/>
 
 <Card pic={iphone10} title="Apple iPhone 14 Pro 1TB Gold (MQ2V3) " price="$1499"/>
 
@@ -232,16 +232,8 @@ const page = () => (
 </div>
 
 <div className="bacground-image-container">
-  <Image src={banner} className="banner"/>
+  <Image src={bannertwo} className="banner"/>
 </div>
-
-{/* footer code start  */}
-
-
-
-
-
-
   </div>
  
 
