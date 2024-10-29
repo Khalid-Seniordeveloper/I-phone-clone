@@ -585,6 +585,9 @@ height: 50%;
  .footer{
    height: 100%;
  }
+
+
+
 }
 
 
@@ -681,6 +684,45 @@ height: 50%;
       html{
          font-size: 40%;
       }
+      .footer-main-container{
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
+      }
+      .footer-one{
+         display: flex;
+         justify-content: center;
+        align-items: center;
+       width: 80%;
+        
+      }
+      
+    
+      .footer-one ul{
+         display: flex;
+         justify-content: center;
+        align-items: center;
+        width: 70%;
+        font-size: 4rem;
+      }
+      .footer-two{
+      
+         display: flex;
+         justify-content: start;
+        align-items: center;
+        
+      }
+      .description-footer{
+         text-align: center;
+      }
+  
+
+      .footer-two ul{
+         display: flex;
+         justify-content: start;
+        align-items: center;
+      }
 }
 
 @media (max-width : 370px){
@@ -689,6 +731,7 @@ height: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
+      
     }
     .sub-one-main-two .free-detail p{
       font-size: 2rem;
@@ -924,13 +967,75 @@ height: 50%;
   .nested-for-detail button, .for-border button {
       padding: 0.8rem 2rem;
       font-size: 1.5rem; /* Adjust button padding */
-  }
-  .footer{
-   height: 80rem;
-      }
+  }  .footer-main-container{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.footer-one{
+   display: flex;
+   justify-content: center;
+  align-items: center;
+ width: 80%;
+  
+}
+
+
+.footer-one ul{
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  width: 70%;
+  font-size: 4rem;
+}
+.footer-two{
+
+   display: flex;
+   justify-content: start;
+  align-items: center;
+  
+}
+.description-footer{
+   text-align: center;
+}
+
+
+.footer-two ul{
+   display: flex;
+   justify-content: start;
+  align-items: center;
+}
+.credit{
+  height: 10rem;
+  display: flex;
+
+
+}
+.credit h1{
+   font-size: 2.6rem;
+}
 }
 @media(max-width : 366px){
+ 
    .footer{
 height: 100%;
    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

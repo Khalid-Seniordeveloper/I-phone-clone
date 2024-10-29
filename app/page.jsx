@@ -28,12 +28,13 @@ import subtwo from './assets/subtwo.png'
 import subthree from './assets/subthree.png'
 import subfour from './assets/subfour.png'
 import banner from './assets/banner.png'
-import flogo from "./assets/flogo.png"
 import iphone15 from "./assets/iphone15.png"
 import iphone10 from "./assets/iphone10.png"
+import Card from "./Components/Cards/Card"
+import SecondCard from "./Components/SecondCard/SecondCard"
 
 
-import { CiHeart } from "react-icons/ci";
+
 const page = () => (
   <>
   <div>
@@ -110,29 +111,26 @@ const page = () => (
 
 </div>
 <div className="sub-container-two-main flex ">
-
-
 <div className="sub-one-main-two flex justify-center items-center ">
-
 <div className="free-detail flex justify-center flex-col items-start p-40">
 
 <h1>Macbook <span>Air</span></h1>
 <p>The new 15‑inch MacBook Air makes  room for more of what you love with a  spacious Liquid Retina display.</p>
 <div className="shop-btn"><button>Shop Now</button></div>
-</div>
 
 </div>
+</div>
+
 <div className="sub-two-main-two flex justify-center items-center">
+    
   <div className="flex  items-center">
     <Image src={macbook} className="mac" />
     
     <Image src={mactwo} className="mac-2" />
   </div>
-</div>
 
 </div>
-
-
+</div>
 </div>
 
 
@@ -171,305 +169,65 @@ const page = () => (
 </div>
 
 
-
-
-
-
 <div className="main-one-card-container be-set w-[100%] mt-16 flex flex-wrap justify-between">
 
-<div className="card-container">
+<Card pic={cardphone} title="I PHONE 41mm Starlight Aluminium" price="$999"/>
 
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardphone} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
+<Card pic={cardcamera} title="Blackmagic Pocket Cinema  Camera 6k " price="$2535"/>
 
-<h1 className="text-2xl text-center product-name">Apple Iphone 14 Pro Max <br /> 128GB Deep Purple </h1>
+<Card pic={cardwatch} title="Apple Watch Series 9 GPS 41mm Starlight Aluminium  " price="$399"/>
 
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$900</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardcamera} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">Blackmagic Pocket Cinema <br />Camera 6k </h1>
+<Card pic={cardhandsfree} title="AirPods Max Silver Starlight Aluminium " price="$549"/>
 
 </div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$2535</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
 
 
 
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardwatch} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">Apple Watch Series 9 GPS <br /> 41mm Starlight Aluminium  </h1>
-
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$399</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardhandsfree} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">AirPods Max Silver <br />
-Starlight Aluminium </h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$549</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-</div>
 <div className="main-one-card-container w-[100%] be-set flex flex-wrap justify-between mt-10">
 
-<div className="card-container">
+<Card pic={cardairdots} title="Galaxy Buds FE Graphite 41mm Starlight Aluminium " price="$99.99"/>
 
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardairdots} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
+<Card pic={galaxyimage} title="Samsung Galaxy Watch6 Classic 47mm Black " price="$369"/>
 
-<h1 className="text-2xl text-center product-name">Galaxy Buds FE <br />
-Graphite </h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$99.99</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
+<Card pic={galaxyphone} title="Galaxy Z Fold5 Unlocked | 256GB | Phantom Black" price="$1799"/>
+<Card pic={ipad} title="Apple iPad 9 10.2 64GB Wi-Fi  Silver (MK2L3) 2021" price="$398"/>
 
 
 
-<div className="card-container">
 
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={galaxyimage} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
 
-<h1 className="text-2xl text-center product-name">Samsung Galaxy Watch6 <br /> Classic 47mm Black </h1>
 
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$369</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
+
+
 </div>
 </div>
 
 
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={galaxyphone} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-<h1 className="text-2xl text-center product-name">Galaxy Z Fold5 Unlocked | <br /> 256GB | Phantom Black</h1>
-
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$1799</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={ipad} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">Apple iPad 9 10.2" 64GB Wi-Fi  <br />Silver (MK2L3) 2021</h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$398</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-</div>
-</div>
 
 <div className="second-main-card-container mt-16   ">
- <div className="sub-second-main">
 
-<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subone} className="w-[25rem] mt-20 overflow-hidden"/></div>
+<SecondCard title="Popular Products" pic={subone}  />
 
-<div className="nested-for-detail flex flex-col items-start justify-start gap-8">
+<SecondCard title="Ipad Pro" pic={subtwo} bgColor="#F9F9F9"/>
 
-<h1 className="text-3xl">Popular Products</h1>
-<p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
-<button>Shop Now</button>
+<SecondCard title="Samsung Galaxy" pic={subthree} bgColor="#EAEAEA"/>
+
+<SecondCard title="Macbook Pro" pic={subfour} bgColor="#2C2C2C" Color="#FFFFFF" btncolor="#FFFFFF" btnborder="1px solid #FFFFFF"/>
+
+
 </div>
- </div>
- <div className="sub-second-main bgone">
-
-<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subtwo} className="w-[25rem] mt-20 overflow-hidden"/></div>
-
-<div className="nested-for-detail flex flex-col items-start justify-start gap-8">
-
-<h1 className="text-3xl">Ipad Pro</h1>
-<p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
-<button>Shop Now</button>
-</div>
- </div>
 
 
- <div className="sub-second-main bgthree">
-
-<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center  "><Image src={subthree} className="w-[25rem] mt-20 overflow-hidden"/></div>
-
-<div className="nested-for-detail flex flex-col items-start justify-start gap-8">
-
-<h1 className="text-3xl">Samsung Galaxy </h1>
-<p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
-<button>Shop Now</button>
-</div>
- </div>
-
-
- <div className="sub-second-main bgfour">
-
-<div className="w-[100%] overflow-hidden h-[25rem] flex justify-center items-center "><Image src={subfour} className="w-[25rem] mt-20 overflow-hidden"/></div>
-
-<div className="for-border flex flex-col items-start justify-start gap-8">
-
-<h1 className="text-3xl text-white">Macbook Pro</h1>
-<p className="text-white">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
-<div><button className="mac-btn">Shop Now</button></div>
-</div>
- </div>
-</div>
 
 <div className="main-one-card-container w-[100%] mt-16 gap-24 neechy flex flex-wrap justify-center items-center">
 
-<div className="card-container">
+<Card pic={iphone15} title="Apple iPhone 14 Pro 512GB Gold (MQ233) " price="$1437"/>
 
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={iphone15} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
+<Card pic={iphone10} title="Apple iPhone 14 Pro 1TB Gold (MQ2V3) " price="$1499"/>
 
-<h1 className="text-2xl text-center product-name">Apple iPhone 14 Pro 512GB <br /> Gold (MQ233) </h1>
+<Card pic={cardwatch} title="Apple Watch Series 9 GPS 41mm Starlight Aluminium  " price="$399"/>
 
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$1437</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={iphone10} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">Apple iPhone 14 Pro 1TB Gold <br /> (MQ2V3) </h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$1499</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardwatch} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">Apple Watch Series 9 GPS <br /> 41mm Starlight Aluminium </h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$399</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
-
-
-
-<div className="card-container">
-
-<div className="w-[100%] h-7  flex justify-end p-4"><CiHeart className="heart" /></div>
-<div className="flex justify-center items-center mt-12"><Image src={cardhandsfree} className="w-56 product"/></div>
-<div className="w-[100%] flex justify-center items-center mt-5">
-
-<h1 className="text-2xl text-center product-name">AirPods Max Silver <br />
-Starlight Aluminium  </h1>
-
-</div>
-<div className="w-[100%] flex justify-center items-center">
-<span className="text-3xl mt-6 price"><b>$549</b></span>
-</div>
-<div className="w-[100%] mt-7 buy-btn flex justify-center items-center">
-  <button>Buy Now</button>
-</div>
-</div>
-
+<Card pic={cardhandsfree} title="AirPods Max Silver Starlight Aluminium " price="$549"/>
 
 </div>
 
@@ -479,59 +237,6 @@ Starlight Aluminium  </h1>
 
 {/* footer code start  */}
 
-<div className="footer">
-
-  
-<div className="footer-main-container flex flex-wrap justify-between  ">
-
-<div className="mt-[3rem]" >
-<ul className="flex flex-col gap-12 justify-center">
-
-<li><Image src={flogo} className="footer-logo"/></li>
-<li className="description-footer text-2xl">We are a residential interior design firm located in Portland. <br /> Our boutique-studio offers more than</li>
-</ul>
-</div>
-
-<div className="mt-[3rem]" >
-<ul className="flex flex-col gap-5 justify-center">
-
-<li><h1 className="text-[2.3rem] text-white">Services</h1></li>
-<li className="description-footer text-2xl">Bonus Programs</li>
-<li className="description-footer text-2xl">Gifts Cards</li>
-<li className="description-footer text-2xl">Credits And Payments</li>
-<li className="description-footer text-2xl">Services Contracts</li>
-<li className="description-footer text-2xl">Non Crash Account</li>
-<li className="description-footer text-2xl">Payment</li>
-
-
-</ul>
-</div>
-
-<div className="mt-[3rem]" >
-<ul className="flex flex-col gap-5 justify-center">
-
-<li><h1 className="text-[2.3rem] text-white">Assistance to the buyer</h1></li>
-<li className="description-footer text-2xl">Find an Order</li>
-<li className="description-footer text-2xl">Term of delivery</li>
-<li className="description-footer text-2xl">Exchange and return</li>
-<li className="description-footer text-2xl">Guarantee</li>
-<li className="description-footer text-2xl">Frequently asked questions</li>
-<li className="description-footer text-2xl">Terms of use of the site</li>
-
-</ul>
-</div>
-
-
-</div>
-
-
-
-
-
-</div>
-<div className="w-[100%] my flex justify-center items-center">
-  <h1 className="text-2xl">Complete responsive developed by Muhammad Khalid GiAiC Sunday Morning (Sir Anas)</h1>
-</div>
 
 
 
@@ -540,7 +245,10 @@ Starlight Aluminium  </h1>
   </div>
  
 
+
   </>
 )
 
 export default page
+
+
