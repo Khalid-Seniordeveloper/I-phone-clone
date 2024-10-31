@@ -47,7 +47,7 @@ const page = () => (
 <h6>Pro.Beyond.</h6>
 <h1>I Phone 14 <span>Pro</span></h1>
 <p>Created to change everything for the better. For everyone</p>
-<button>Shop Now</button>
+<button className="btn-border">Shop Now</button>
 </div>
 </div>
 
@@ -149,12 +149,12 @@ const page = () => (
 
 <div className="product-third-container flex  justify-between flex-wrap  ">
 
-<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Phones}/>  <h1 className="text-2xl ">Phones</h1></div>
-<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Headphones}/>  <h1 className="text-2xl ">HeadPhones</h1></div>
-<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Gaming}/>  <h1 className="text-2xl ">Gaming</h1></div>
-<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={watch}/>  <h1 className="text-2xl ">Watch</h1></div>
-<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Computers}/>  <h1 className="text-2xl ">Computers</h1></div>
-<div className="p-container flex flex-col items-center justify-center gap-5"><Image src={Cameras}/>  <h1 className="text-2xl ">Gaming</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5 hover choota-card "><Image src={Phones}/>  <h1 className="text-2xl ">Phones</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5 hover choota-card"><Image src={Headphones}/>  <h1 className="text-2xl ">HeadPhones</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5 hover choota-card"><Image src={Gaming}/>  <h1 className="text-2xl ">Gaming</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5 hover choota-card"><Image src={watch}/>  <h1 className="text-2xl ">Watch</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5 hover choota-card"><Image src={Computers}/>  <h1 className="text-2xl ">Computers</h1></div>
+<div className="p-container flex flex-col items-center justify-center gap-5 hover choota-card"><Image src={Cameras}/>  <h1 className="text-2xl ">Gaming</h1></div>
 
 
 </div>

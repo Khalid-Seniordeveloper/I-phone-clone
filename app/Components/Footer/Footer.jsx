@@ -1,7 +1,9 @@
 import Image from "next/image"
 import flogo from "./Assets/flogo.png"
-
-
+import { FaTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
 const Footer = () => {
   return (
 <div className="footer"> 
@@ -14,6 +16,8 @@ const Footer = () => {
 
 <li><Image src={flogo} className="footer-logo"/></li>
 <li className="description-footer text-2xl">We are a residential interior design firm located in Portland. <br /> Our boutique-studio offers more than</li>
+<li className="flex gap-20 items-center"><FaTwitter className="text-white text-4xl" />  <FaFacebookF  className="text-white text-4xl"/> <FaTiktok   className="text-white text-4xl" /> <FiInstagram  className="text-white text-4xl"/> </li>
+
 </ul>
 </div>
 

@@ -10,7 +10,7 @@ const SecondCard = (props) => {
     
     <h1 className="text-3xl" style={{ color: props.Color }}>{props.title}</h1>
     <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
-    <button  style={{ color: props.btncolor,
+    <button className="btn-border"  style={{ color: props.btncolor,
       border : props.btnborder
      }}>Shop Now</button>
     </div>

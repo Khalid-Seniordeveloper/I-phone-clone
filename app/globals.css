@@ -233,10 +233,26 @@ font-size: 4rem; ;
    height: 14rem;
    background-color: #EDEDED;
    border-radius: 1rem;
+   transition: .5s;
+}
+.p-container:hover{
+cursor: pointer;
 }
 
+.nav-link li{
+   transition: .5s;
 
-
+}
+.nav-link li:hover{
+ cursor: pointer;
+  
+}
+.btn-border{
+   transition: .5s;
+}
+.btn-border:hover{
+  padding : 1.2rem 4.5rem ;
+}
 .no{
    display: none;
 }
@@ -253,6 +269,7 @@ font-size: 4rem; ;
    /* border: 1px solid black; */
    border-radius: 0.5rem;
    background-color: #F6F6F6;
+   transition : .5s;
 }
 .for-underline{
    padding: 0.5rem 0;
@@ -264,8 +281,10 @@ font-size: 4rem; ;
    color: white;
    padding: 1rem 3.5rem;
    border-radius: 0.7rem;
-
+   transition: .5s;
 }
+
+
 /* .main-one-card-container{
    margin-top: -10rem;
 }
@@ -287,18 +306,24 @@ font-size: 4rem; ;
 .second-main-card-container {
    display: flex;
    flex-wrap: wrap;
-   justify-content: center; /* Center the items horizontally */
-   align-items: center; /* Center the items vertically */
-   height: 100vh; /* Ensure it takes full viewport height */
+   justify-content: center; 
+   align-items: center; 
+   height: 100vh; 
 }
 
-/* Card styles */
+
 .sub-second-main {
-   width: 25%; /* Default width for larger screens */
-   height: 47rem; /* Keep the height as is */
-   min-width: 300px; /* Minimum width to maintain card size */
+   width: 25%; 
+   height: 47rem; 
+   min-width: 300px; 
+   transition: .5s;
 }
-
+.choota-card{
+   transition: .5s;
+}
+.choota-card:hover{
+   box-shadow: 10px 10px 10px gray;
+}
 .nested-for-detail{
    width: 100%;
    height: 22rem;
@@ -379,6 +404,21 @@ font-size: 4rem; ;
    width: 100%;
    height: 100%;
 }
+.hover:hover{
+  cursor: pointer;
+}
+.hover-card-btn:hover{
+   background-color: black;
+   color: white;
+   padding: 1.3rem 3.8rem;
+   border-radius: 0.7rem;
+}
+.card-container:hover{
+
+   /* border: 1px solid black; */
+   box-shadow: 10px 10px 10px gray;
+}
+
 
 @media (max-width : 1004px ){
    .main-navbar-container{
