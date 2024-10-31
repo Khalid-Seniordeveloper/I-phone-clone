@@ -258,7 +258,6 @@ cursor: pointer;
 }
 
 
-/* card styling  */
 .heart{
    font-size: 2.5rem;
 }
@@ -446,7 +445,7 @@ justify-content: center;
             display: none;
          }
          .sub-second-main {
-            width: 45%; /* Adjust width for medium screens */
+            width: 45%; 
         }
         .footer{
          width: 100%;
@@ -524,7 +523,7 @@ justify-content: center;
       gap: 1.5rem;
    }
    .sub-second-main {
-      width: 45%; /* Adjust width for medium screens */
+      width: 45%; 
   }
 
    .first-container{
@@ -553,8 +552,8 @@ justify-content: center;
 height: 50%;
    }
    .sub-second-main {
-      width: 100%; /* Full width for small screens */
-      margin-bottom: 2rem; /* Add spacing between cards */
+      width: 100%;
+      margin-bottom: 2rem;
   }
    .second-sub-container{
       height: 50%;
@@ -594,20 +593,20 @@ height: 50%;
    margin-top: 160rem;
  }
  .sub-second-main {
-   width: 100%; /* Full width for small screens */
-   margin-bottom: 2rem; /* Add spacing between cards */
+   width: 100%;
+   margin-bottom: 2rem; 
 }
 .nested-for-detail h1, .for-border h1 {
-   font-size: 3.2rem; /* Adjust heading size for smaller screens */
+   font-size: 3.2rem; 
 }
 
 .nested-for-detail p, .for-border p {
-   font-size: 1.5rem; /* Adjust paragraph size for smaller screens */
+   font-size: 1.5rem;
 }
 
 .nested-for-detail button, .for-border button {
    padding: 0.8rem 2rem;
-   font-size: 1.5rem; /* Adjust button padding */
+   font-size: 1.5rem;
 }
   
 }
@@ -697,20 +696,19 @@ height: 50%;
       top: 250rem;
     }
    .sub-second-main {
-      width: 200px; /* Keep card width at 300px */
+      width: 200px; 
   }
  
 
   .nested-for-detail h1, .for-border h1 {
-      font-size: 2rem; /* Adjust heading size for smaller screens */
-  }
+      font-size: 2rem; }
 
   .nested-for-detail p, .for-border p {
-      font-size: 1rem; /* Adjust paragraph size for smaller screens */
+      font-size: 1rem; 
   }
 
   .nested-for-detail button, .for-border button {
-      padding: 0.8rem 2rem; /* Adjust button padding */
+      padding: 0.8rem 2rem; 
   }
   .footer{
    height: 100rem;
@@ -993,20 +991,20 @@ height: 50%;
       /* margin-right: 2rem; */
    }
    .sub-second-main {
-      width: 50%; /* Keep card width at 300px */
+      width: 50%; 
   }
 
   .nested-for-detail h1, .for-border h1 {
-      font-size: 3.5rem; /* Adjust heading size for smaller screens */
+      font-size: 3.5rem; 
   }
 
   .nested-for-detail p, .for-border p {
-      font-size: 1.7rem; /* Adjust paragraph size for smaller screens */
+      font-size: 1.7rem; 
   }
 
   .nested-for-detail button, .for-border button {
       padding: 0.8rem 2rem;
-      font-size: 1.5rem; /* Adjust button padding */
+      font-size: 1.5rem; 
   }  .footer-main-container{
    display: flex;
    justify-content: center;
